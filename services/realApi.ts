@@ -13,7 +13,14 @@ import {
   StudentBatch
 } from '../types';
 
+<<<<<<< HEAD
 
+=======
+// Resolve API base URL from Vite env or fall back to sensible defaults:
+// - If `VITE_API_URL` is set (recommended for deployments), use it.
+// - In dev (import.meta.env.DEV) fall back to local backend.
+// - Otherwise (production without VITE_API_URL) use a relative `/api` so the frontend talks to the same origin.
+>>>>>>> 4b4dbecc59a9e78d34125e787d850ed19c2b4d02
 const API_URL = (import.meta as any).env?.VITE_API_URL || 'http://localhost:5000/api';
 
 const getHeaders = () => {
