@@ -37,7 +37,7 @@ const LandingPage: React.FC<LandingPageProps> = ({
     "https://www.google.com/maps/place/Tiny+Toddlers+Playschool+Giridih/@24.193383,86.3043113,17z/data=!3m1!4b1!4m6!3m5!1s0x39f15536f2602f99:0x1ac66ef918f8ca9a!8m2!3d24.193383!4d86.3043113!16s%2Fg%2F11fmb6ybqt?entry=ttu";
 
   const [config, setConfig] = useState<LandingPageConfig>({
-    schoolName: "Tiny Toddlers Playschool",
+    schoolName: "Tiny Toddlers",
     heroTitle: "Start Their Journey\nWith Wonder",
     heroSubtitle:
       "A magical place where learning meets adventure. We nurture curiosity in a safe, vibrant, and 3D interactive environment.",
