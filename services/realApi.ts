@@ -13,10 +13,6 @@ import {
   StudentBatch
 } from '../types';
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 1d5bea54b9dd3389a2e900eee621eb83d5e95d46
 const API_URL = (import.meta as any).env?.VITE_API_URL || 'http://localhost:5000/api';
 
 const getHeaders = () => {
