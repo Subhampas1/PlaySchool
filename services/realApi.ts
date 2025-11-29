@@ -13,7 +13,7 @@ import {
   StudentBatch
 } from '../types';
 
-const API_URL = 'https://tinytoddlers.vercel.app/api';
+const API_URL = 'https://playschool-servers.vercel.app/api';
 
 const getHeaders = () => {
   const token = localStorage.getItem('authToken');
