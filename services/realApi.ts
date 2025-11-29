@@ -13,7 +13,7 @@ import {
   StudentBatch
 } from '../types';
 
-const API_URL = (import.meta as any).env?.VITE_API_URL || 'http://localhost:5000/api';
+const API_URL = 'https://tinytoddlers.vercel.app/api';
 
 const getHeaders = () => {
   const token = localStorage.getItem('authToken');
